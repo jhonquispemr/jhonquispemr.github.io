@@ -24,6 +24,30 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* Establece el tamaño fijo para la página */
+        html, body {
+            height: 100%;
+            overflow: hidden; /* Oculta el contenido que desborde */
+            margin: 0;
+        }
+
+        /* Asegura que el contenedor principal ocupe toda la altura disponible */
+        .container-fluid {
+            height: 100%;
+        }
+
+        /* Alinea el contenido verticalmente en el centro */
+        .d-flex {
+            align-items: center;
+        }
+
+        /* Ajusta el tamaño de la imagen para que no desborde el contenedor */
+        .img-fluid {
+            max-height: 50vh;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -37,7 +61,7 @@
         </button>
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
-                
+                <!-- Aquí puedes agregar elementos del menú si es necesario -->
             </div>
             <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
         </div>
@@ -64,7 +88,7 @@
     <!-- Video Modal End -->
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+    <div class="container-fluid bg-primary d-flex align-items-center py-5" id="home">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
