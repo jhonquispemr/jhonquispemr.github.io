@@ -43,9 +43,15 @@
             align-items: center;
         }
 
-        /* Ajusta el tamaño de la imagen para que no desborde el contenedor */
+        /* Ajusta el tamaño de la imagen para que no se distorsione */
         .img-fluid {
             max-height: 50vh;
+            width: auto;
+            height: auto;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
